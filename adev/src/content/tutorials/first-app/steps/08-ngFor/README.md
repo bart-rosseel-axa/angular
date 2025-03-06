@@ -34,7 +34,7 @@ In the `HomeComponent` there is only a single housing location. In this step, yo
 <docs-step title="Update the `HomeComponent` template to use `ngFor`">
 Now the app has a dataset that you can use to display the entries in the browser using the `ngFor` directive.
   
-IMPORTANT: Make sure your component is importing CommonModule. This is required for the component to use the `ngFor` directive.
+    Note: Make sure your component is importing CommonModule. This is required for the component to use the `ngFor` directive.
 
 1. Update the `<app-housing-location>` tag in the template code to this:
     <docs-code header="Add ngFor to HomeComponent template" path="adev/src/content/tutorials/first-app/steps/09-services/src/app/home/home.component.ts" visibleLines="[17,22]"/>
